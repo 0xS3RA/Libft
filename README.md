@@ -1,12 +1,12 @@
 # Libft - C Library
 
 <p align="center">
-  <img src="https://i.ibb.co/vvxmGwq2/Chat-GPT-Image-Dec-18-2025-01-10-22-AM-1.png" width="800">
+  <img src="https://i.ibb.co/QvdjRtTr/71cad909-c3d3-4fb5-bdc9-7213b3e31cc3.jpg" width="800">
 </p>
 
 ## Description
 
-	Libft is a C library that provides access to useful and necessary functions for the rest of the course.
+	Libft is a C library that provides access to useful and necessary functions.
 	It contains a Makefile that provides useful compilation commands, an srcs/ folder that contains all
 	the .c code for the aforementioned functions, and an include folder that contains the header with the
 	prototypes for all the functions and the declaration of the t_list type (list type structure).
@@ -65,7 +65,7 @@
 
 	all: $(NAME)
 
-	# Compile with the libft.a and the libft.h found in the libft folder
+	# Compile with the libft.a from the libft folder
 	$(NAME): $(OBJS)
 		$(CC) $(CFLAGS) $(OBJS) $(LIBFT) -o $(NAME)
 
