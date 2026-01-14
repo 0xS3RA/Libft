@@ -1,7 +1,7 @@
 # Libft - C Library
 
 <p align="center">
-  <img src="https://i.ibb.co/VYmpZ5z2/71cad909-c3d3-4fb5-bdc9-7213b3e31cc3.jpg">
+  <img src="https://i.ibb.co/VYmpZ5z2/71cad909-c3d3-4fb5-bdc9-7213b3e31cc3.jpg" width="800">
 </p>
 
 ## Description
