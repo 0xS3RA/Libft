@@ -1,21 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: vvan-ach <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/13 21:12:37 by vvan-ach          #+#    #+#             */
-/*   Updated: 2025/12/13 22:01:33 by vvan-ach         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
-
-// Allouer Size_t par Size_t pour aller plus vite
-// sizeof(size_t) == 8 bytes/octet sur x64 et 4 sur x32
-// Ensuite allouer les bytes manquants
-// sizeof(unsigned char) == 1 byte/octet
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
